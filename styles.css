@@ -41,6 +41,19 @@ header h1 {
   font-weight: 500;
 }
 
+.about {
+  margin: 2rem 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text);
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 1rem;
+}
+
+
 .links {
   margin: 2rem 0;
   display: flex;
@@ -61,6 +74,41 @@ header h1 {
 .links a:hover {
   background-color: #028b91;
 }
+
+.downloads {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.downloads h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.downloads ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloads li {
+  margin-bottom: 1rem;
+}
+
+.downloads a {
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.downloads a:hover {
+  background-color: var(--accent);
+}
+
 
 footer {
   font-size: 0.9rem;
